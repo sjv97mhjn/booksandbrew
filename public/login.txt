@@ -1,0 +1,61 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+function validate()
+{
+//var login,pswd
+if(document.Registration.login.value.length < 1)
+{
+alert("Login Field can not be left empty");
+}
+else if(document.Registration.pswd.value.length < 5)
+{
+alert("Password must be 5 characters long");
+}
+else 
+alert("Congratulations. Your details have been saved");
+return true;
+}
+/*function display()
+
+{
+var login, pswd
+login=document.Registration.login.value;
+pswd=document.Registration.pswd.value;
+document.write("Your login ID is:" +login+"<BR>");
+document.write("Your password is:" + pswd);
+return true;
+}*/
+</script>
+</head>
+
+<body background="C:\Users\hp-pc\Desktop\cc.png" link="green">
+<center>
+<FONT COLOR="WHITE" FACE="DFPOP1-W9">
+<br>
+<br>
+<br>
+<form name="Registration" method="post" onSubmit=validate()>
+Login: &nbsp;&nbsp;&nbsp;<input type="text" name="login">
+<br>
+<br>
+<br>
+Password: <input type="password" name="pswd">
+<br>
+<br>
+<br>
+<input type="submit" value="LOGIN TO HEAVEN">
+<br>
+<br>
+Books And Brews Fairy to the Rescueeeee.....
+</font>
+<center><IMG SRC="C:\Users\hp-pc\Desktop\an.jpg" Alt="BB" Height="300"width="355"></center><FONT COLOR="black" FACE="DFPOP1-W9">
+<h1 ALIGN="CENTER"><B>Wish to Login to Heaven too?Visit Books and Brews Cafe Soon.</font></B></h1>
+<br>
+<br>
+<h2><a href="bb.html">HOME</a></h2>
+</center>
+</font>
+</form>
+</body>
+</html>
