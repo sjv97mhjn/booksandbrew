@@ -45,6 +45,6 @@ app.post('/test',function(req,res){
 
 })
 
-app.listen(process.env.PORT || 5000,function(req,res){
+app.listen(process.env.PORT || 80,function(req,res){
 	console.log("Listening on port 80");
 })
